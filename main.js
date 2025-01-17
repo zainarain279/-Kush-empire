@@ -295,7 +295,7 @@ async function main() {
       await Promise.allSettled(promises);
     }
     await sleep(5);
-    console.lo g(`Complete all accounts | Wait ${settings.TIME_SLEEP} minute=============`.magenta);
+    console.log(`Complete all accounts | Wait ${settings.TIME_SLEEP} minute=============`.magenta);
     await sleep(settings.TIME_SLEEP * 60);
   }
 }
